@@ -173,6 +173,7 @@ ol {
   color: var(--color-white);
   background-color: var(--color-navy-blue-modal);
   padding: 188px 0;
+  background-image: url(..//images/hero-image.jpg);
 }
 
 

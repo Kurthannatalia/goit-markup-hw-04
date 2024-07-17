@@ -514,15 +514,20 @@ fill:var(--color-cloud)
 .footer-container-link {
   color: var(--color-navy-blue);
   background-color: var(--color-navy-blue-modal);
-  display: flex;
-  align-items: baseline;
+
 }
 
 .footer-container-link {
   background-color: var(--color-navy-blue);
   padding: 100px 0;
 }
-.footer-content{
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-content {
  margin-right: 120px;
 }
 

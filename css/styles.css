@@ -446,16 +446,15 @@ fill:var(--color-cloud)
 
 .list-service {
   width: calc((100% - 48px) / 3);
-  transition:box-shadow 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-.list-service:hover {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list-service:hover 
-.overlay {
-  transform: translateY(0%);
+
+.list-service:hover {
+ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.2),
+  0px 3px 12px rgba(46, 47, 66, 0.3);
+}
+.list-service:hover .overlay {
+ transform: translateY(0);
 }
 
 .portfolio-img-container {
@@ -563,7 +562,7 @@ fill:var(--color-cloud)
 .list-social-media {
   width: 40px;
   height: 40px;
-  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-media-item {

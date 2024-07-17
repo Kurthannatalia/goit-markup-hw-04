@@ -464,7 +464,7 @@ fill:var(--color-cloud)
  transform: translateY(0);
 }
 
-.portfolio-img-container {
+.overflow {
  position: relative;
  overflow: hidden;
 }

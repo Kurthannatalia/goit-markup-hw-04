@@ -56,8 +56,7 @@ ol {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  position: relative;
-  text-align: center;
+
 }
 
 /* HEADER*/
@@ -379,6 +378,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 400;
+  margin-bottom: 8px;
 }
 
 .menu-social-list-icon{

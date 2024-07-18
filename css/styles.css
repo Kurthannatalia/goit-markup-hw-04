@@ -292,7 +292,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-slate);
-  width: calc((100% - 72px) / 4);
+  /*width: calc((100% - 72px) / 4);
   box-sizing: border-box;*/
   margin-bottom: 8px;
 }

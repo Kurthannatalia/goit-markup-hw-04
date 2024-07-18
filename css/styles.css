@@ -194,7 +194,7 @@ ol {
   color: var(--color-white);
   background-color: var(--color-navy-blue-modal);
   padding: 188px 0;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   max-width: 1440px;
   background-size: cover;
   background-position: center;
@@ -292,8 +292,9 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-slate);
-  width: calc((100% - 72px) / 4);
-  box-sizing: border-box;
+  /*width: calc((100% - 72px) / 4);
+  box-sizing: border-box;*/
+  margin-bottom: 8px;
 }
 
 .features-menu {
@@ -301,7 +302,7 @@ ol {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--color-grey, #2e2f42);
+  color: var(--color-navy-blue);
   margin-bottom: 8px;
 }
 
@@ -338,7 +339,7 @@ ol {
 }
 
 .list-img-list {
-  background-color: var(--color-white);
+  /*background-color: var(--color-white);*/
   display: flex;
   width: 100%;
   gap: 24px;
@@ -508,7 +509,6 @@ fill:var(--color-cloud)
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
   margin-bottom: 8px;
-
 }
 
 .portfolio-desk {
@@ -544,6 +544,7 @@ fill:var(--color-cloud)
 }
 
 .text-footer {
+  width: 264px;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;

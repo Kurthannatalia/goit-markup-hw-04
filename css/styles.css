@@ -307,13 +307,11 @@ ol {
 }
 
 .description-text {
-  font-family: var(--main-font-family);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
-  background-color: var(--color-white);
+  margin-bottom: 8px;
 }
 
 /*SECOND SECTION*/

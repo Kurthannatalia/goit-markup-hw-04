@@ -552,10 +552,11 @@ fill:var(--color-cloud)
 
 .text-footer {
   width: 264px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--color-cloud, #f4f4fd);
+  color: var(--color-cloud);
 }
 
 .social-media-container {
@@ -619,6 +620,12 @@ fill:var(--color-cloud)
   margin-bottom: 16px;
 }
 
+
 .footer-logo-part-light {
   color: var(--color-cloud);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }

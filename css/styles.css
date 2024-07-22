@@ -250,7 +250,7 @@ ol {
 
 }
 
-.container-icon{
+.container-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -563,7 +563,7 @@ fill:var(--color-cloud)
 
 }
 
-.social-media-text{
+.social-media-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
